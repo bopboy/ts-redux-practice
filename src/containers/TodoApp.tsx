@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../modules';
 import { addTodo, toggleTodo, removeTodo } from '../modules/todos';
 import TodoInsert from '../components/TodoInsert';
-import { on } from 'cluster';
 import TodoList from '../components/TodoList';
 
 function TodoApp() {
